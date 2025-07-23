@@ -4,6 +4,8 @@ A conversational AI assistant built with Streamlit and the Google Gemini API to 
 
 **Live App Link:** [https://finbot-ai-chatbot-b6fipxjmnjcyyeya77gsal.streamlit.app/](https://finbot-ai-chatbot-b6fipxjmnjcyyeya77gsal.streamlit.app/)
 
+Note: This application is hosted on a free tier and may take a few moments to wake up if it hasn't been accessed recently. Please click the 'Wake up' button if prompted."
+
 ---
 
 ## Features

@@ -23,7 +23,8 @@ except Exception as e:
 # --- MODEL AND CHATBOT LOGIC ---
 
 # Set up the generative model to use the latest Gemini Flash model
-model = genai.GenerativeModel("models/gemini-1.5-flash-001")
+model = genai.GenerativeModel("models/gemini-pro")
+
 
 
 # This is the "brain" of your chatbot. It's the master instruction.

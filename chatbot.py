@@ -11,7 +11,8 @@ if "GOOGLE_API_KEY" not in st.secrets:
 genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 # Use a valid model for google-generativeai==0.8.5
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-2.5-flash")
+
 
 
 system_prompt = """
@@ -61,9 +62,4 @@ if user_input:
 
     st.session_state.messages.append({"role": "assistant", "content": reply})
 
-
-if st.button("List Available Models"):
-    models = genai.list_models()
-    for m in models:
-        st.write(m.name)
 

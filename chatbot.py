@@ -60,3 +60,10 @@ if user_input:
         st.write(reply)
 
     st.session_state.messages.append({"role": "assistant", "content": reply})
+
+
+if st.button("List Available Models"):
+    models = genai.list_models()
+    for m in models:
+        st.write(m.name)
+
